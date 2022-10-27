@@ -2,4 +2,4 @@
 ComponentAndDataBinding
 
 
-Even number and Odd number printing
+Assignment-4 is "Even number and Odd number printing"
