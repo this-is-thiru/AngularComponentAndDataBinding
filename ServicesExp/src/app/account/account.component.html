@@ -1,0 +1,10 @@
+<div class="row a">
+    <div class="col-xs-12 col-md-8">
+        <h5><Strong>{{ account.name }}</Strong></h5>
+        <hr>
+        <p>This account is {{ account.status }}</p>
+        <button class="btn btn-default" (click)="onSetTo('active')">Set to 'active'</button>&nbsp;
+        <button class="btn btn-default" (click)="onSetTo('inative')">Set to 'inactive'</button>&nbsp;
+        <button class="btn btn-default" (click)="onSetTo('unknown')">Set to 'unknown'</button>
+    </div>
+</div>
